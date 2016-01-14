@@ -1,0 +1,79 @@
+Markdown Tutorial
+Markdown Lesson 1
+
+Welcome
+
+Hello! Welcome! This is me (emilykkeyes) giving markdown a try. So far, so good.
+
+Emphasis
+
+Let's give emphasis a try shall we. I really dislike pre-sliced pickles. hate might be too strong of a word. I think really does the job of conveying my dislike.
+
+Making Lists
+
+I love lists! Let's give lists a try. Continuing on with the trend of dislikes, let's make a dislikes list
+
+Dislikes
+•Food 
+◦Celery
+◦Pre-sliced pickles
+◦Green peppers
+◦Brussel sprouts
+◦Cabbage
+
+•Miscellaneous ◦Unloading the dishwasher
+◦Washing dishes
+◦(basically anything with dishes) ###To-do list ---------------
+
+•Finish the tutorial
+•Read through exercise 2-3
+•Groceries
+•Make lunch
+
+Code
+
+Oh code! This actually looks familiar, as I had to use html in high school.
+
+<html>
+    <head>
+        <title>Website Title</title>
+    </head>
+    <body>
+    </body>
+</html>
+
+Blockquotes
+
+Because I am a very important person, I will be using quotes.
+
+
+“You must not think that in dressing up the tale of Hester Prynne, and imagining the motives and modes of passion that influenced the characters that figure in it, I've confined myself to what is written here. On the contrary. I allowed myself nearly or all together as much license as if the facts were entirely of my invention.” Nathanial Hawthorne, The Scarlet Letter
+
+Links
+
+To see all the amazing things I am up to, check out my twitter Why did my link not come up like this one: Programming Historian. Try again: Twitter. Okay, it seems to be that you need the descriptor, or maybe the period.
+
+Citations
+
+This will also be super useful. I'll try citing myself. One example is the Programming Historian website. 
+
+Cool.
+
+Horizontal Rules
+
+
+
+
+Tables
+
+I love tables almost as much as lists. let's do this. | Monday| Tuesday | Wednesday| | --------- | --------- | --------- | | 21 | 22 | 23|
+
+Images
+
+How I feel having accomplished this task
+
+Emily right now 
+
+
+Written with StackEdit.
+
