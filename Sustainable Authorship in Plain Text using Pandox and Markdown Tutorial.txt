@@ -1,0 +1,29 @@
+Sustainable Authorship in Plain Text using Pandox and Markdown Tutorial
+
+---  
+title: Plain Text Workflow  
+author: Emily Keyes
+date: January 18, 2015
+---  
+# Introduction
+
+## Argument
+gurgle gurgle gurgle.
+
+
+## Data
+table number statistics.
+
+# Point 1
+
+Tadaaaaa.
+
+Emily means "inudstrious." [^1]
+[^1]: meaning of emily [link](http://www.sheknows.com/baby-names/name/emily).
+
+
+![nunavut park] (park.jpg).
+Pandoc Tutorial Notes:
+Don't include any note that the folder you create should not have spaces. When trying to change to the directory, I could not select the original directory because the title/name looked like this: pandoc and markdown. Once I did change it to "pandoc" I had no problem.
+Instructions for installing Pandoc are terrrrrrrible.
+
