@@ -1,0 +1,15 @@
+Beneath floes
+*originally published on emilykkeyesblog.wordpress.com
+Posted on January 19, 2016׀ Digital History, Games, Web׀
+*
+Hello!
+
+In my Digital History seminar at Carleton University we were introduced to this game, called Beneath Floes. It is a hypertext story, where players can chose between different links to progress through the game.
+
+The game features a number of different Inuit myths, including the  Qalupalik, a creature with human-like characteristics, who kidnaps and drags children below the ice. (Some of you might remember this story from Robert Munsch and Michael Kusugak’s “A Promise is a Promise.”)
+
+The game can be played in Inuktitut, something which is pretty rare. In our seminar we talked about how hypertext games such as this (which you can create using an open-source tool such as Twine) can be used to showcase narratives/characters/themes frequently omitted from mainstream games.
+
+It’s a unique way to learn and interact with Inuit mythology, so if that interests you, take a peak!
+
+http://www.bravemule.com/beneathfloes
