@@ -1,0 +1,27 @@
+# Automated Downloading with Wget
+Programming Historian Tutorial, by Ian Milligan
+### by emilykkeyes
+
+Going into this Wget tutorial, I was very excited about the implications for my work outside of the University. At the historical research firm I work part-time, we often are in the situation where we need to download a large number of historical documents (in most cases census records, birth records etc.) Usually in these cases, the task of copy and saving these files falls to me. Not only is this usually tedious, but it also has a huge margin for error, not to mention the decisions that need to be made on how these documents should be filed and stored.
+
+Right off the bat, I really appreciate how the tutorial was broken down for Mac users and Windows users. Already in the first few weeks of this course, I've been cautioned that Windows is very different (i.e. more problematic) than Mac, so I appreciate the distinction. 
+
+The first issue I ran into was the downloading instructions. Admittedly, this was more of a reader/user error than instructions. Eagerly following the link to download Wget, I was immedieately confused with all the (download options)[https://eternallybored.org/misc/wget/]. So many options, what version do I need?
+
+Lucikly, per the #hist5702w mantra, I turned to my classmates (shout out to Laurel), and the problem was easily solved.
+
+Second problem, again a great reader/user problem! When downloading wget.exe, I did not put it in the right directory. Instead of putting it in C:Windows, I left it in C:. This would cause problems for me later, forcing me to start at the top of the tutorial and read carefully again (something I'm growing increasingly familiar with doing...there's a lesson to be learned there, but maybe I just need to be hit with it a few more times.) Again, shout out to Laurel for bringing this error to my attention.
+
+SO, finally armed and ready with wget, I proceeded to input the commands using Powershell. Powershell was used in the [Command Line Bootcamp tutorial](http://praxis.scholarslab.org/scratchpad/bash/) recommended at the beginning of the Wget tutorial, so I went with that. (side bar: that was a great tutorial. Really clear and easy to follow along.)
+
+Mosing along, I was fine, right up until this appeared on my screen:
+(image--wget issues)
+
+...well this doesn't look like what the tutorial said it would.
+
+Again, turning to my trusty DH guide, Laurel stepped in. Deciding to give Powershell the proverbial finger, Laurel switched me to CommandPrompt. Repeating the steps, things worked fine, and I *finally* completed the tutorial yahoo!
+
+So excited, I shared on Twitter, and lo and behold, Ian Milligan (the tutorial's author) was [pleased for me.](https://twitter.com/emilykkeyes/status/690237631045746688)
+
+
+*Keyes vs. Wget will be continued in ### Keyes vs. Applied Archival Downloading*

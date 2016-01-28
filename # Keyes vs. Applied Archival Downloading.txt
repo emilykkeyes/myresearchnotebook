@@ -1,0 +1,9 @@
+# Keyes vs. Applied Archival Downloading
+Programming Historian Tutorial, by Kellen Kurschinski
+### by emilykkeyes
+
+Riding on the high of the previous Wget, I decided to tackle another tutorial--I mean afterall, the applications are endless, or so Mr. Milligan led me to believe. Journal articles are great, but what about using Wget for archival documents?
+
+Once again, Programming Historian saves the day, with (Applied Archival Downloading with Wget)[http://programminghistorian.org/lessons/applied-archival-downloading-with-wget].
+Awesome.
+So let's start!
