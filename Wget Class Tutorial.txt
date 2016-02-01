@@ -1,0 +1,58 @@
+Wget Class Tutorial
+
+Different ideas for how we can run the session. First I want to start with talking about exactly what Wget is. 
+Wget is a piece of free software that downloads files/content from the web.
+
+The link we used to download Wget is linked to a site called GNU, which is a free operating system. It's part of something called the "free software movement." Essnetially they want to put users in control of their own computing. It's sponsored by the Free Software Foundation, whose mission is to "to preserve protect and promote the freedom to use study copy modify and redistribute computer software and defend the rights of free software users."
+
+I thought it might be interesting if we looked at this mission statement, and talked a little bit about it. Think about it in terms of open-source, archival policies etc.
+
+Issues with Wget tutorial?
+
+
+Wget Photo-Tutorial Steps:
+Open CommandPrompt (search: commandprompt)
+
+Navigate to the place you'd like to create a directory (cd ...). For this let's use desktop.
+
+Create a new directory (mkdir wget-NAME). For this, let's use mkdir wget-lac
+
+Navigate to this directory (cd wget-lac)
+
+Insert command (wget and the URL for the website you are interested in) For this let's use (wget http://data2.archives.ca/e/e167/e004157817.jpg)
+
+You should get a little message like this: SCREENSHOT.
+
+This means your file downloaded, yahoo!
+
+Okay, let's see how we can use this to download more.
+One way to do this is by creating a text document with a whole bunch of files you want to download.
+(screenshot)
+Save it, and then 
+Use the command wget -i name.txt
+(wget -i e167.txt)
+
+Screenshot.
+Success!
+
+
+Okay, apparently we can be a bit more specific with wget on what we want downloaded (so say, we only want the images downloaded from a page/site.) Let's give it a try.
+http://collectionscanada.gc.ca/pam_archives/index.php?fuseaction=genitem.displayItem&lang=eng&rec_nbr=2666975&rec_nbr_list=99898,2666975,2667022,2666976,99897,2667020,2667016,2667025,2667000,2667018
+
+Wget doesn't seem to like the url above, because it has things like 'lang' in it, which it things is a command.
+What about if I add a (/) after
+Nope. same result. Screenshot.
+
+Let's try a workaround...
+What if I try and shorten it? like using Google URL
+http://goo.gl/Vp66Ec
+
+So it appeared to be doing something, but didn't like it. It kept generating "550 Internal Server Error"
+Eventually, after it did the same thing over and over, I stopped it by using Ctrl C (handy tip.)
+
+Searching my original issue (command viewing things like "lang" as a command), I found this solution on stackoverflow.com (http://stackoverflow.com/questions/20626273/usage-of-wget-for-a-long-url). They say to inclose my url in quotes.
+
+So new command wget "http://collectionscanada.gc.ca/pam_archives/index.php?fuseaction=genitem.displayEcopies&lang=eng&rec_nbr=2666975&rec_nbr_list=99898,2666975,2667022,2666976,99897,2667020,2667016,2667025,2667000,2667018&title=[Journal+du+si%C3%A8ge+de+Qu%C3%A9bec+avec+un+d%C3%A9tail+particulier+...].+&ecopy=e
+Searching a
+
+wget man (shows options)

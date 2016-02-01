@@ -1,0 +1,75 @@
+Python, Pip and Data Mining the Internet
+(The Programming Historian's Tutorials)
+
+Seeing as I finally managed to get some sort of a handle on Wget, I set off to try the next tutorial on the list. (Data Mining the Internet Archive Collection)[http://programminghistorian.org/lessons/data-mining-the-internet-archive].
+
+First things first, I learned my lesson to read more carefully the instructions, and I started on the Programming Historian lesson on pip. (side-bar: this kind of instruction irritates me. It makes the learner have to navigate away from the original lesson to a new tutorial, which takes time to complete. For this specific tutorial, I also had to find another tutorial on Python, since I didn't have that installed.)
+
+Per the tutorial, I opened and saved the get-pip.py to my python directory. Seems simple, right? Next, to run it. Okay! Opening CommandPrompt, I navigated to my python directory, and ran the command:
+
+python get-pip.py to install pip.
+
+Problem number one, which looked like this:
+C:\Python27>python get-pip.py to install pip
+File "get-pip.py", line 1
+From: "Saved by Internet Explorer 11"
+SyntaxError: invalid syntax
+
+...well that's not good.
+I tried downloadig it again, and reading the instructions again. Same issue.
+
+Thankfully, answers are never far away with Slack. Dr. Graham to the rescue!
+First recommendation, try python --version
+Response: Python 2.7.11
+
+No luck.
+
+Next step, let's check out why the error message is coming up. Open up get-pip.py in a text editor (such as Komodo).
+Looks like this: get-pip.PNG
+
+Okay, so this is the problem. Instead of a program, I downloaded html.
+(side-instruction, ditch Internet Explorer. Okay, completed.)
+
+Alright, with the get-pip.py identified as the problem, let's try re-downloading it. To do this, Dr. Graham shared this image: get-pip.py
+I copy and pasted this into my text editor, and saved it as get-pip.py in my Python folder. 
+
+Another option for this step is to use Chrome and open this link:https://bootstrap.pypa.io/get-pip.py
+Save as, and put it in your Python folder with the name "get-pip.py"
+
+Alright, let's try running our original command (python get-pip.py to install pip.) again.
+python2.png
+
+Success!
+My reaction: It's Alive!
+
+Problem conquered? Let's move along.
+Opp, not very far. The next step (well really the *first* step of the actual Programing Historian tutorial is downloading (using python/pip) internetarchive and pymarc.
+This is the error I recieved: python3
+
+Dr. Graham again to the rescue. He suggested inserting the command "python -m pip install pymarc"
+Success! This is what resulted:
+python 4
+
+
+I ran the same command except with "internetarchive", again a success.
+
+But, something Dr. Graham asked, why did "-m" make a difference? (NB: follow up)
+
+kept getting an error message that import was not a command
+
+
+import internetarchive
+search = internetarchive.search_items('collection:nasa')
+print search.num_found **(Save this as mysearch.py)
+
+When you are at the command line
+python mysearch.py
+
+Identation matters in Python. Carries symantic meaning. Use tab key, or space, but DO NOT use both.
+
+Typing in python brings you to your interpreter (you will know because it will give you >>>)
+
+item - internetarchive.get_item('lettertowilliamdoug00doug')
+
+
+

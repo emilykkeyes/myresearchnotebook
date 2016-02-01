@@ -7,3 +7,6 @@ Riding on the high of the previous Wget, I decided to tackle another tutorial--I
 Once again, Programming Historian saves the day, with (Applied Archival Downloading with Wget)[http://programminghistorian.org/lessons/applied-archival-downloading-with-wget].
 Awesome.
 So let's start!
+
+http://heritage.canadiana.ca/view/oocihm.lac_reel_c400/1?r=0&s=1
+http://heritage.canadiana.ca/view/oocihm.lac_reel_c400/170?r=0&s=1
