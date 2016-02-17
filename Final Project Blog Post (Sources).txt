@@ -1,0 +1,46 @@
+Final Project Blog Post (Sources)
+
+For my Digital History class, we are working on a final project, which is supposed to be a video game built using a tool called Twine. (http://twinery.org/)
+I'll be partnering with someone in my class to work on a game that higlights how you can use a dataset (https://www.google.ca/search?q=define:+dataset&sourceid=ie7&rls=com.microsoft:en-CA:IE-Address&ie=&oe=&gws_rd=cr&ei=32m2VsqTCcrfmwH31I7oDQ) to generate a timeline or map of an individual or group's movements over time.
+
+For the project, I'm hoping to follow up on a note I read in a journal article by Michelle Hamilton on the enumeration of First Nations and Metis people in Canadian censuses. In her article, Hamilton draws attention to the notes made by censuses enumerators expressing their frustration and uncertainty on enumerating identify. She includes one remark made by Thomas H. Johnson in the 1861 census that said:
+
+"These people are so mixed up with Indian that I scarcely know what to call them. The principle mixture is white, and they cultivate the soil, so I call them white." 
+
+This note is made in the "Remarks" column on the census on the second page referring to a group of individuals from the Nipissing District. What I am hoping to do with this project is to track a family in this group and their descendants forward through time using documents available through Ancestry.ca, and to see how their recorded ethnicity changes based on their location. 
+
+What's interesting is that if you search for this specific page online through Library and Archives Canada, you cannot find it. That is because when it was never digitised. Ancestry.ca, who was responsible for the digitising of all of the Canadian Census records with Library and Archives Canada, only digitising the first page of the 1861 census. 
+
+I spoke about this specific example (and other related "buyer beware" issues of Ancestry.ca) at the Canadian Historical Association Annual Meeting in Ottawa in 2015.  I spoke on this issue from a genealogical perspective, but I figured (since afterall this is a Digital History course) I'd try and see what else can be gained from putting on the "Digital Humanist" hat.
+
+Trevor Owens, in his draft article "Digital Sources & Digital Archives: The Evidentiary Basis of Digital History," outlines some important questions to think about when consulting a digital archive. While he encourages researchers and historians to ask the same set of questions when consulting a digital source as we would a tangible one, he also outlines some other important questions to keep in mind. Below, I am going to work through these questions, specifically with the 1 page 1861 census in mind, available through Library and Archives/Ancestry.ca
+
+
+1) Why was this digitized and not something else? 
+
+The Canadian Censuses were digitsed by Ancestry (free of charge, I should add) to be included on their genealogy website. Ancestry charges a fee for users to access these documents, which are frequenly used by both amateur and professional genealogists. Library and Archives Canada agreed to have them digitised because 1) a digital copy is a safeguard from over-use, and damage of original copies , and 2) Ancestry provides them with a digital master copy, which includes the scans, and the metadata needed to index them.
+
+2) Is this copy of significant quality for my purpose? 
+
+For my project, no. It does contain the data for the individuals I am interested in, but it does not include the notes I know are on the second page. 
+
+3) How did I find it and how does that effect what I can say about it?
+7) What role did search play in the original experience of content?
+
+I found the page by searching Library and Archives Canada, but first truly through Hamilton's note. Search played a large role in the retrieval of the item, and will undoutedbly play an even larger role as I search for more information on the family enumerated in the census. The search function on Ancestry works by checking the search terms against an index created from the source. To the best of my knowledge, this index is created by individuals (not through OCR). Therefore, the index is "as reliable as the competency of the people hired to decipher original records." Additionally, each individual indexer mustg interpret what they see in front of them; is that a lazy "L" or or a "J"? And for instances when an ethnicity/race has been recorder, and crossed out, how is that recorded? This are protocols that Ancestry has not made available to the public.
+
+
+4) What are you not seeing on the screen?
+5) What is lost in how it was/is rendered? 
+6) How was this created, managed and used and how does that impact what one can say about it?
+
+As I've already discussed, what is not seen on the screen is the second page. Because the majority of the people enumerated in the 1861 likely did not recieve any remarks on the second page, it was not scanned. But not including this information, or at least making it known for those searching that a second page exists, is extremely problematic, particularly for individuals who are using Ancestry, and census records to prove Aboriginal heritage. Furthermore, what is not seen on Ancestry (or on Library and Archives for that matter) is the motives behind and manner behind the collection of the 1861 census, who the census enumerator was etc. 
+
+A lot of food for thought heading into the project!
+
+
+
+"So instead of doing high quality digital captures of the original documents it was much less expensive to simply digitize the black and white microfilm. However, as the cases from the EEBO Shakespeare folios illustrated, higher quality color images of the documents would likely enable access to a much broader range of the potentially significant properties of those documents. So it’s still important to consider if the quality of a digital reproduction of an object is good enough for the purpose one intends to use it for."
+
+Looks at the difference between a physical and a digital archive.
+1) Context still remains important. It is still important to know the context of a composed email, how a inbox is structured, as it is to know who recieved a letter etc.

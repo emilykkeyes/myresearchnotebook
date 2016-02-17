@@ -1,0 +1,102 @@
+Intro to the Zotero API
+First, "pip install libZotero" did not work.
+Instead, referring back to an issue I had in the previous tutorial I used:
+python -m pip install libZotero
+This worked.
+Created text document (saved as a py) with "#make the libZotero library available
+from libZotero import zotero"
+Ran the comment in command prompt python -i makelibzotero.py
+Recieved >>>
+input zlib=zotero.Library('group','155975','<null>',
+'9GLmvmZ1K1qGAz9QWcdlyf6L') 
+Recieved >>>
+input items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'}) 
+Recieved >>>
+
+Okay what if I createa a text document with 
+"from libZotero import zotero 
+zlib=zotero.Library('group','155975','<null>', '9GLmvmZ1K1qGAz9QWcdlyf6L') 
+zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'})
+
+
+DO not save it in the same folder as Python
+Don't name your file the same as a module...it can cause problem (dates)
+
+value print (doesn't appear)
+
+for item in items: (hit enter, then wait)
+
+Intro to the Zotero API (successful command line)
+Microsoft Windows [Version 10.0.10240]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\emily_000>python
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:40:30) [MSC v.1500 64 bit (
+AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit ()
+
+C:\Users\emily_000>python
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:40:30) [MSC v.1500 64 bit (
+AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit ()
+
+C:\Users\emily_000>python -m pip install win_unicode_console
+Collecting win-unicode-console
+  Downloading win_unicode_console-0.4.zip
+Building wheels for collected packages: win-unicode-console
+  Running setup.py bdist_wheel for win-unicode-console ... done
+  Stored in directory: C:\Users\emily_000\AppData\Local\pip\Cache\wheels\03\59\3
+0\fbf2628628c9c6efc08913110bf8857150c7cad252f95fed87
+Successfully built win-unicode-console
+Installing collected packages: win-unicode-console
+Successfully installed win-unicode-console-0.4
+
+C:\Users\emily_000>python
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:40:30) [MSC v.1500 64 bit (
+AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import win_unicode_console
+>>> win_unicode_console.enable()
+>>> from libZotero import zotero
+>>> zlib=zotero.Library('group','155975','<null>',
+... '9GLmvmZ1K1qGAz9QWcdlyf6L')
+>>>
+>>> items = zlib.fetchItemsTop({'limit': 5, 'content': 'json,bib,coins'})
+>>> for item in items:
+...      print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
+... item.itemKey, item.title)
+...
+Item Type: document | Key: 4BH6EHPN | Title: Python Lesson Document
+Item Type: document | Key: VN58XKMG | Title: Python Lesson Document
+Item Type: document | Key: NZQKPPCR | Title: Python Lesson Document
+Item Type: document | Key: 5IHZ86GC | Title: Python Lesson Document
+Item Type: document | Key: ACH52WES | Title: Python Lesson Document
+>>> for item in items:
+...      print item.bibContent
+...
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-inde
+nt:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="csl-entry">"Python Lesson Document," February 2, 2016.</div>
+</div>
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-inde
+nt:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="csl-entry">"Python Lesson Document," January 27, 2016.</div>
+</div>
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-inde
+nt:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="csl-entry">"Python Lesson Document," January 27, 2016.</div>
+</div>
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-inde
+nt:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="csl-entry">"Python Lesson Document," January 27, 2016.</div>
+</div>
+<div class="csl-bib-body" style="line-height: 1.35; padding-left: 2em; text-inde
+nt:-2em;" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="csl-entry">"Python Lesson Document," January 27, 2016.</div>
+</div>
+>>>
+
+Notes on the class:
+ESRI mapping product?

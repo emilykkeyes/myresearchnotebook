@@ -1,0 +1,17 @@
+Examples of Mapping using Genealogy and Census records
+http://www.smithsonianmag.com/history/maps-reveal-slavery-expanded-across-united-states-180951452/
+http://www.theguardian.com/news/datablog/interactive/2012/oct/01/first-world-war-royal-navy-ships-mapped
+
+In preparation for my final project (which I discussed a bit in my last post), I decided to check out my competition and see what other kinds of maps are being generated based on census records and other historical documents. There are many out there, so in this post I'll highlight two, and talk about what I found interesting, problematic etc.
+
+The first one I looked at was from the Smithsonian magazine, by Lincoln Mullen, on the slavery in the United Sttes from 1790-1860. Mullen created two interactive maps, using data taken from census records, that have a time lapse featured. 
+
+One of the first things that caught my attention was that the accompanying article was centered around the maps Mullen generated, rather than the other way around. Reflecting on this, I thought it was really important, and showed that Mullen wasn't just using the maps as filler, or to make this article look cool. He had created the maps, and then was reflecting on them, and using them to build an argument.  
+
+The trends seen in the maps are very clear. Moving forward through time the Western United States becomes increasingly populated with slaves. Mullen uses this talk about how rather than something that was confined to the Southern United States, slavery was widespread across the country. Additionally, he mentions the difficulties of using data from sources such as censuses, using the example of how no slaves were enumerated in Vermont in 1860, but how historical research has shown that African-Americans were kept in bonds during this period.
+
+The second map I looked at was made using a program called CartoDB (a program I think I'll be using for my own project, and something I'll discuss at another time.)  It shows the movement (reportedly over 1 million locations) of the United Kingdom's Royal Navy during WWI. It's dataset was created using captain's logs. Apparently it provides "a fascinating insight into the British Empire at war."
+
+The map is animated using a function called "Torque", which allows you to create animations out of the locations in your input into your dataset. The result is the ability to watch lights zip around your screen, as time-lapse moves forward.  The clock on the bottom counts us through time, and even features short summaries for each month's activities ("Trade routes reusme" "War begins with Germany"). One immediate problem I found was the inability to control the time-lapse. In Mullen's maps, you can move forwards and backwards through time. With The Guardian's map, we can only advance forward. While asethically nicer than Mullen's, the lack of any accompanying text didn't prompt any reflection. Instead, I watched the map a few times, mostlty noting that it looked cool, rather than in Mullen's case think about the enumeration of data, trends in US history etc.
+
+In reflection, one thing I noticed about both maps is their large datasets. Both maps I looked at for this post use thousands of documents, going over hundreds of years. For my final project I want to keep my dataset small, focusing on one particular family. I'm curious then how features like Torque in CartoDB will work.

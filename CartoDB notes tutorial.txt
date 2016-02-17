@@ -1,0 +1,44 @@
+CartoDB notes tutorial
+
+It doesn't seem to like having more than 1 person with the same latitude and longtitude. This is problematic for genealogical mapping.
+However, if we try and do it individually (one person, over a course of a lifetime), that would work. BUT I think you might have to have different excel/datasets for each one (so one would be NAME, age etc.)
+
+Do it on a family basis. Each family gets an id? Give them slightly off coordinates.
+CartoDB only works if someone is moving around consistently over the course of their lifetime...which we know people didn't do really. 
+
+So how do you visualise multiple people in the same area, but still having them as individuals rather than a collective/group?
+
+Group the original family, then have "break-off groups"
+
+Simplify? Just make it the 1 family, since they all have the same ethnicity, then split into the other family?
+
+Still how does that get represented.
+Family 1: la/long, ethn, la/long, ethn etc.
+
+Then create seperate tables for people who've left?
+
+What if you do a family that moves around a bit,
+
+1861--size 11, Nipissing
+1871-size 10, Mattawa,  2 in (place)
+1881-size 8, Mattawa, 2 in (place), 8 in (place)
+1901, size 4, Mattawa, 2 in North Bay, 8 in (place)
+
+Using this model, I inputted the data.Ther first vis. is the simple. This really doesn't do much. But by clicking on the Wizards, we can change the vis. Cluster does a great job, marking how many people have the sam lat/long for that location. 
+
+Choropleth does not work as well, since it seems to want to automatically use Lat/Long for the column to sort. You can also add a label, which is really nice.
+
+In Category, you have the ability to change the column it's sorting by, so in this case I did Year. Again, you can customise your colour. You can also customise it by clicking on the buble, you can change what info gets shows.
+While the colours look interesting, it doesn't really capture the number of people in one location. Again, it only puts 1 bubble for the people in one spot.
+
+Cluster doesn't work either, again it wants you to do just long/lat.
+Torque can work well, if we conver the time appropriately.
+So once you put the time in the proper format, it works pretty well. The one thing is its a bit slow.
+
+Now the heat-map, that works pretty well. Very effective
+AND you can put year time-lapse. Again, slow, and I don't like it.
+Love this version. Looks great.
+
+Torque Cat was very good too.
+
+

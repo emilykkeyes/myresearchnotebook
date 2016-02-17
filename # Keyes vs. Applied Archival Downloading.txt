@@ -10,3 +10,5 @@ So let's start!
 
 http://heritage.canadiana.ca/view/oocihm.lac_reel_c400/1?r=0&s=1
 http://heritage.canadiana.ca/view/oocihm.lac_reel_c400/170?r=0&s=1
+
+http://cos.swiss.canadiana.ca/file.jpg?sessioncount=1&key=1&signature=a4495f2f607678756c16e0f57a5f9ca31ed778dc&from=tdr%2Foocihm%2F688%2Foocihm.lac_reel_c400%2Fdata%2Fsip%2Fdata%2Ffiles%2F0001.jpg&sessionid=9528ec3b9d9a06a7ad067b2a1f018dc6205d8dd8&portalid=heritage&institutionid=136&size=800x800&format=jpg&rotate=0&expires=1454976000

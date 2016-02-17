@@ -1,0 +1,42 @@
+Creating New Items in Zotero (command prompt--errors)
+Microsoft Windows [Version 10.0.10240]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\emily_000>python
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:40:30) [MSC v.1500 64 bit (
+AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from libZotero import zotero
+>>> import urllib2
+>>> import datetime
+>>> zlib = zotero.Library('group', '155975','<null>', 'f4Bfk3OTYb7bukNwfcKXKNLG'
+)
+>>>
+>>> newItem = zotero.getTemplateItem('document')
+>>>
+>>> newItem.set('title', 'Python Lesson Document')
+>>>
+>>> newItem.set('abstractNote', 'Created using a zotero python library and the w
+rite api')
+>>>
+>>>
+>>> now = datetime.datetime.today().strftime("%Y-%m-%d")
+>>> newItem.set('date', now)
+>>> createdItem = zlib.createItem(newItem)
+>>>
+>>> if createdItem.writeFailure != False:
+...     print(createdItem.writeFailure['code'])
+...     print(createdItem.writeFailure['message'])
+...     tagname = 'python lesson'
+...     createdItem.addTag(tagname, '0')
+...
+>>> updatedItem = zlib.writeUpdatedItem(createdItem)
+>>> if updatedItem.writeFailure != False:
+...     print("Error updating item")
+...     print(updatedItem.writeFailure['code'])
+...     print(updatedItem.writeFailure['message'])
+...     print 'Created new item <%s> with new tag <%s>' % (createdItem.title, ta
+gname)
+...
+>>>
+

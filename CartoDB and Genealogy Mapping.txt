@@ -1,0 +1,6 @@
+CartoDB and Genealogy Mapping
+Lastly, I did some looking to see what is available specifically for genealogy mapping. To my surprise, there isn't a lot out there. The leading program is Family Tree Maker, which is a program developed by genealogy giant Ancestry. You have to pay for the program, and use it on your Desktop. It copies all of the files and trees you created on Ancestry's online platform to your desktop. In FTM you have the option to select a single individual in your tree, and create a map of their noted locations throughout their life (again, often from documents such as census records, marriage records etc. The one thing with FTM is that you can upload your own life events, with a specific location.) You can also broaden this out, and select the number of desecendants from a select person you'd like to map, changing the colour for each individual.
+
+While I haven't used this program myself, I'm curious what the map looks like when you have multiple generations in one location. Is the program sophisticated enough to recognise that there is more than one individual (perhaps making a large bubble/mass), or does it simply put one point for all?
+
+Another drawback from this program (besides requiring a subscription), is that it doesn't appear to be customizable--You can't change the background etc.

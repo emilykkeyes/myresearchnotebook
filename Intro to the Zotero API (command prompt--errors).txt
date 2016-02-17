@@ -1,0 +1,104 @@
+Intro to the Zotero API (command prompt--errors)
+
+
+C:\Users\emily_000>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 483C-008A
+
+ Directory of C:\Users\emily_000
+
+2016-02-01  12:00 PM    <DIR>          .
+2016-02-01  12:00 PM    <DIR>          ..
+2016-02-01  08:10 PM    <DIR>          .gimp-2.8
+2016-02-01  12:00 PM               151 .gitconfig
+2016-01-14  01:42 PM    <DIR>          .ResophNotes
+2016-01-11  07:18 PM    <DIR>          .ssh
+2015-12-07  03:40 PM    <DIR>          .thumbnails
+2015-10-27  08:58 AM    <DIR>          3D Objects
+2015-10-27  07:41 AM    <DIR>          Contacts
+2016-01-29  01:03 PM    <DIR>          Desktop
+2016-01-31  10:52 AM    <DIR>          Documents
+2016-02-01  07:39 PM    <DIR>          Downloads
+2016-02-02  08:53 AM    <DIR>          Dropbox (Know History)
+2016-01-30  01:44 PM    <DIR>          Favorites
+2015-10-27  07:41 AM    <DIR>          Links
+2015-10-27  07:41 AM    <DIR>          Music
+2016-02-02  01:48 PM    <DIR>          OneDrive
+2016-02-01  01:08 PM    <DIR>          Pictures
+2016-01-28  06:17 PM    <DIR>          programming-historian python
+2015-10-27  07:41 AM    <DIR>          Saved Games
+2015-10-27  07:41 AM    <DIR>          Searches
+2015-10-16  03:01 PM    <DIR>          Tracing
+2015-10-27  07:41 AM    <DIR>          Videos
+               1 File(s)            151 bytes
+              22 Dir(s)  52,130,168,832 bytes free
+
+C:\Users\emily_000>cd Documents
+
+C:\Users\emily_000\Documents>cd Carleton
+
+C:\Users\emily_000\Documents\Carleton>cd HIST 5702w
+
+C:\Users\emily_000\Documents\Carleton\HIST 5702w>python
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:40:30) [MSC v.1500 64 bit (
+AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from libZotero import zotero
+>>> zlib=zotero.Library('group','155975','<null>',
+... '9GLmvmZ1K1qGAz9QWcdlyf6L')
+>>> items = zlib.fetchItemsTop ({'limit': 5, 'content': 'json,bib,coins'})
+>>> for item in items:
+...     print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
+... item.itemKey, item.title)
+... item.itemKey, item.title)
+  File "<stdin>", line 4
+    item.itemKey, item.title)
+       ^
+SyntaxError: invalid syntax
+>>> for item in items:
+...     print 'Item Type: %s | Key: %s | Title: %s' % (item.itemType,
+...     item.itemKey, item.title)
+...
+Item Type: document | Key: VN58XKMG | Title: Python Lesson Document
+Item Type: document | Key: NZQKPPCR | Title: Python Lesson Document
+Item Type: document | Key: 5IHZ86GC | Title: Python Lesson Document
+Item Type: document | Key: ACH52WES | Title: Python Lesson Document
+Item Type: document | Key: GW3JAQFB | Title: Python Lesson Document
+>>> for item in items:
+...     print item.bibContent
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Python27\lib\encodings\cp850.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode character u'\u201c' in position
+ 153: character maps to <undefined>
+>>> for item in items:
+...      print item.bibContent
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Python27\lib\encodings\cp850.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode character u'\u201c' in position
+ 153: character maps to <undefined>
+>>> for item in items:
+...     print item.bibContent
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Python27\lib\encodings\cp850.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode character u'\u201c' in position
+ 153: character maps to <undefined>
+>>> for item in items:
+...     print item.bibContent
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Python27\lib\encodings\cp850.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode character u'\u201c' in position
+ 153: character maps to <undefined>
+>>> for item in items:
+...     print item.bibContent

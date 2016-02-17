@@ -1,0 +1,22 @@
+SPARQL Tutorial
+
+Notes:
+RDF--information in 3 part statements, subject, predicate and object
+SPARQL-translated interlinked graph data into normalized tabular data
+SPARQL--A Mad lib. lets us search databases using a question to pull up matching statements: 
+SELECT ?painting
+WHERE {
+  ?painting <has medium> <oil on canvas> .
+}
+Benefits fo RDF and SPARQL is it has the ability to ask complex queries with multiple variables:
+SELECT ?artist ?painting
+WHERE {
+  ?artist <has nationality> <Dutch> .
+  ?painting <was created by> ?artist .
+}
+
+URI--Translates our RDF from plain-languageinto something readable on the web: 
+<The Nightwatch>   <was created by>   <Rembrandt van Rijn> .
+<http://data.rijksmuseum.nl/item/8909812347> <http://purl.org/dc/terms/creator>  <http://dbpedia.org/resource/Rembrandt>.
+
+LaudLAM
