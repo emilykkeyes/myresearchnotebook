@@ -1,0 +1,28 @@
+02-22-2016
+
+What is the utility of the Command Line?
+More precision. Better understanding of what you are doing.
+Ikea metaphor
+Reproducability
+
+Suggested, look at preserving your research data
+
+TagSpaces
+
+Stephen Ramsay
+
+Voyant
+--maybe we could try and do this with KH posts?
+This would be very very useful for looking at the trends in ethnicity labels in Metis--trend from Half-Breed to French.
+You'd have to transcribe the census records, and somehow input it that way....
+Could Voyant work on Excel tables?
+Maybe for Commandant/Lariviere?
+
+Palladio---http://palladio.designhumanities.org/#/
+You can upload tabular data to make a visualisation (so if you were doing location, or ethnicity.)
+Exciiiitting
+
+
+
+
+
