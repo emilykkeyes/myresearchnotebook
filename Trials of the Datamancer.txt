@@ -1,0 +1,24 @@
+Trials of the Datamancer
+
+This is a digital history tutorial for those........
+To be able to visualize this kind of information allows for a broader interpreation of the data, and a deeper analysis.
+
+OpenRefine--Laurel is working on this section currently.
+Suggestion to remove OpenRefine/Standord NER
+
+When you close the RegEx manuals, I'd suggest not going back to the Regular Expression page, but straight to another page with 
+You return the booklets to the chest and pick up the OpenRefine tool.
+
+Question: by Finished Packing, is your data 100% in a table?
+
+I think we should reroute finished packing to new passage
+
+(goto-url: "http://www.example.org/")
+<font color="#C12283"><i><b>Datamancers</i></b></font>
+
+<a href="http://programminghistorian.org/lessons/intro-to-bash" target="_blank">here</a>,
+
+
+Next meeting:
+Add short descriptions for other products
+Can't get transition time working on It's pretty....

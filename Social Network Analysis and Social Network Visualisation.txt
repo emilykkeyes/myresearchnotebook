@@ -1,0 +1,15 @@
+Social Network Analysis and Social Network Visualisation
+
+Social Network Analysis:
+Example of teachers and students in a SNV (would be a bi-partite)
+People (node)
+Lines/Connections (edges)
+Most often, edges are un-directed.
+Edges should all be the same kind of relationship (can't have hockey players with edges of ice time shares, and hobbies.) Match isn't built to do both. Assumption of data is not built into the math.
+
+You can do a SNA and make the edges (the lines) has a weight
+SO you could do like SNA of people living in Bristol but who work in Shawville.
+
+Social Network Visualisation--visualisations carry no weight in meaning based on position. Network is a metaphor for a system of relationships--you can represent these relationships in different ways.
+
+Between-ness centrality

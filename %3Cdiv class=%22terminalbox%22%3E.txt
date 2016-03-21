@@ -1,0 +1,13 @@
+<div class="terminalbox">
+<div class="introcontainer">
+<font color="#FFFFFF">
+You click on "Maps" in the top right corner.
+<div style="margin-left:82px;"><img src="https://github.com/rhymeswithfloral/hist5702w_project/blob/master/1.PNG?raw=true"></div>
+Next, you [[Import Information]] on "New Map."
+<div style="margin-left:82px;"><img src="https://github.com/rhymeswithfloral/hist5702w_project/blob/master/2.PNG?raw=true"></div>
+</font>
+</div>
+</div>
+
+
+width="1000" height="500"

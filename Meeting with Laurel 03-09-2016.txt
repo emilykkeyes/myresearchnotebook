@@ -1,0 +1,116 @@
+Meeting with Laurel 03-09-2016
+
+Reflection (open with the twine noise in video)
+
+
+Things to add to analysis:
+visualisation doesn't tell us much, we need to look at it in comparison to the data
+
+even a spreadsheet is a visualisation of some sort
+
+Images for Passages:
+watercolour: 10g
+dark matter: 11g
+21: Heatmap 21
+33: Heatmap 33
+animated 21: animated 21
+animated 33: animated 33
+orange: orange
+green: green
+blue ellipses: blue ellipses
+red ellipses: red ellipses
+blue rectangle: blue rectangle
+red rectangle: red rectangle
+
+Passages plus changes (Passage title: text....)
+map: Do we like (click: "watercolour")[(display: "dark matter")]
+watercolour: Here it is! You think this is the right map for the trials of the Datamancer. Let's move on to [[Edit the Bubbles]].
+dark matter: Here it is! Hmm, this is a little dark. Let's see what [[watercolour]] looks like.
+
+
+Heatmap: How big should our marker be? [[21]] or [[33]]?
+21: Should it be animated, like Torque? [[Yes make me animated|animated 21]] [[No, let's go|go]]
+Yes make me animated: Here it is! [[Now,let's go|go]]
+33: Should it be animated, like Torque? [[Yes make me animated|animated 33]] [[No, let's go|go]]
+Yes make me animated: Here it is! [[Now,let's go|go]]
+
+Cluster: What colour should our bubble be, [[orange]] or [[green]]?
+orange: Here it is! [[Now,let's go|go]]
+green: Here it is! [[Now,let's go|go]]
+
+Torque: In the wizard for Torque, we want to make sure we have our "year" column selected under "Time Column." This will let us move forward through time.
+As our shape marker, we can have an [[ellipse]] or a [[rectangle]].
+
+ellipse: Next, let's pick our colour. 
+(click: "blue ellipses")[(display: "blue ellipses")]
+(click: "red ellipses")[display: "red ellipses")]
+blue ellipses: Here it is! [[Now,let's go|go]]
+red ellipses: Here it is! [[Now,let's go|go]]
+
+rectange: Next, let's pick our colour.
+(click: "blue rectangle")[(display: "blue rectangle")]
+(click: "red rectangle")[display: "red rectangle")]
+blue rectangle: Here it is! [[Now,let's go|go]]
+red rectangle: Here it is! [[Now,let's go|go]]
+
+
+To Do today:
+Map out what my options are:
+
+One Water Colour that has
+Cluster--Orange
+Cluster--Green
+Torque--Elipse Red
+Troque--Elipse Blue
+Torque--Rectange Red
+Torque--Rectange Blue
+Heatmap--21
+Heatmap--33
+Heatmap--21 and animated
+Heatmap--33 and animated
+
+
+New passage additions: (passage name: text)
+
+Do you remember...:
+You remember, you used a program on the interweb called CartoDB.
+CartoDB is a computing platform that provides mapping and data visualisation tools. Everything is hosted online, which makes it easily accessible. It is easy to use, and once you've uploaded your data it immedieately detects (and plots) geospatial data (such as longitude and latitude.) 
+You type in the CartoDB link in your web browser.
+[[Next, you must login.]]
+
+
+genealogy, follow this path.:
+Let's take a look at Data View.
+We can see that CartoDB has recognised the geographical coordinates (longitude and latitude) in our data, and this is what they are using to plot the point.
+Let's go back to [[Map View.]]
+
+Map View:
+This is the map that CartoDB has automatically generated. We can see that it has plotted the geographical coordinates associated with the movements of our family. 
+However, looking at the map currently, there are some issues. First, from our data we know that there were multiple members of a family in a particular spot. The way our data is visualised currently this isn't represented in the map. Instead of having 8 points at one spot, we only have one.  
+This won't do.
+Let's see what kind of (click: "tools CartoDB")[(display: "tools CartoDB")]] has to better visualize our data.
+
+tools CartoDB:
+CartoDB has different options to visualise data that may be better suited for our pruposes. Let's take a look at some of the other tools CartoDB offers. We can access this by clicking on the paintbrush in our wizard tab on the right hand side.
+Let's take a look at (click: "Cluster")[(display: "Cluster")]]
+
+Cluster:
+Cluster looks better. We can see that 8 family members were at Mattawa. This is much better than the Simple option, as it gives us a better understanding of how many people were in one place at one time.
+This visualisation is better, but should we look at more?
+(click: "Yes")[(display: "Torque")]]
+[[No|map]
+
+Torque:
+Back at the wizard tab, we see something called "Torque." That sounds fun.
+Torque gives us the option to animate our data, in this case the family's movements across the space and through time. 
+This is really nice. Do we like this, or want to see more?
+(click: "Yes")[(display: "Heatmap")]]
+[[No|map]]
+
+Heatmap:
+Back at the wizard tab, we see something called "Heatmap." That sounds fun.
+In Heatmap, the more times a particular geographical coordinate appears in your data, the larger the marker. The marker grows in size (and deepens in colour) with the frequency of the appearance of a geographical coordinate. For example, we can see that the marker at Mattawa is quite larger, and red, which corresponds with how many times Mattawa appears in our data.
+[[Look at the time, we should keep moving|map]]
+
+
+
